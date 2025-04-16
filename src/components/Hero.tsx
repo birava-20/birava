@@ -35,11 +35,11 @@ export default function Hero() {
                 />
               </div>
               <p className="text-xl text-gray-700 font-medium mb-4">
-                Hi, I'm Birava! An IT graduate, problem-solver, and tech
+                Hi, I&apos;m Birava! An IT graduate, problem-solver, and tech
                 enthusiast.
               </p>
               <p className="text-lg leading-8 text-gray-600 max-w-2xl mb-8">
-                I'm a recent Humber College grad with hands-on experience in IT
+                I&apos;m a recent Humber College grad with hands-on experience in IT
                 support, system administration, and customer service. I love
                 working with technology that makes life easier—for users and
                 teams alike.

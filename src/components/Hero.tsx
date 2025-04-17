@@ -46,7 +46,7 @@ export default function Hero() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 mt-2 w-full sm:w-auto px-4 sm:px-0">
                 <a
-                  href="/Birava_Prajapati_Resume.pdf"
+                  href="https://drive.google.com/file/d/1wB_L7O87EeYrNFwe24Ha8uLWZ5sr6FSy/view?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="rounded-md bg-indigo-600 px-6 py-3 text-base font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 transition-colors"

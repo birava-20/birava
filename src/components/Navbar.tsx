@@ -26,7 +26,7 @@ export default function Navbar() {
           <Link href="/" className="-m-1.5 p-1.5">
             <div className="relative w-8 h-8">
               <Image
-                src="/logo.png"
+                src="/birava/logo.png"
                 alt="Birava Prajapati"
                 fill
                 className="object-contain"

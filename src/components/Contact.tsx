@@ -38,8 +38,8 @@ export default function Contact() {
   };
 
   return (
-    <div id="contact" className="py-16 sm:py-24">
-      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+    <div id="contact" className="py-12 sm:py-16 lg:py-24">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {/* Header Section */}
         <div className="mx-auto max-w-2xl lg:text-center mb-12">
           <motion.div
@@ -56,14 +56,14 @@ export default function Contact() {
           </motion.div>
         </div>
 
-        <div className="mx-auto grid max-w-7xl grid-cols-1 lg:grid-cols-2 gap-x-6 gap-y-16">
+        <div className="mx-auto grid max-w-7xl grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-x-8">
           {/* Contact Form */}
           <motion.div
             ref={ref}
             initial={{ opacity: 0, y: 20 }}
             animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
             transition={{ duration: 0.5 }}
-            className="rounded-3xl bg-white p-8 ring-1 ring-gray-200"
+            className="rounded-2xl sm:rounded-3xl bg-white p-6 sm:p-8 ring-1 ring-gray-200"
           >
             <form onSubmit={handleSubmit} className="grid grid-cols-1 gap-y-6">
               <div>
@@ -141,7 +141,7 @@ export default function Contact() {
             initial={{ opacity: 0, y: 20 }}
             animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
             transition={{ duration: 0.5, delay: 0.2 }}
-            className="rounded-3xl bg-gray-50 p-8"
+            className="rounded-2xl sm:rounded-3xl bg-gray-50 p-6 sm:p-8"
           >
             <h2 className="text-2xl font-semibold text-gray-900 mb-8">
               Contact Information

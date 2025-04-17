@@ -16,8 +16,8 @@ export default function Hero() {
           }}
         />
       </div>
-      <div className="py-24 sm:py-32 lg:pb-40">
-        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+      <div className="py-12 sm:py-24 lg:pb-32">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-2xl text-center">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -25,28 +25,28 @@ export default function Hero() {
               transition={{ duration: 0.5 }}
               className="flex flex-col items-center"
             >
-              <div className="relative w-40 h-40 mb-8">
+              <div className="relative w-32 h-32 sm:w-40 sm:h-40 mb-6 sm:mb-8">
                 <Image
-                  src="/profile.png"
+                  src="/birava/profile.png"
                   alt="Birava Prajapati"
                   fill
                   className="rounded-full object-cover"
                   priority
                 />
               </div>
-              <p className="text-xl text-gray-700 font-medium mb-4">
+              <p className="text-lg sm:text-xl text-gray-700 font-medium mb-3 sm:mb-4 px-4">
                 Hi, I&apos;m Birava! An IT graduate, problem-solver, and tech
                 enthusiast.
               </p>
-              <p className="text-lg leading-8 text-gray-600 max-w-2xl mb-8">
+              <p className="text-base sm:text-lg leading-7 sm:leading-8 text-gray-600 max-w-2xl mb-6 sm:mb-8 px-4">
                 I&apos;m a recent Humber College grad with hands-on experience in IT
                 support, system administration, and customer service. I love
                 working with technology that makes life easier—for users and
                 teams alike.
               </p>
-              <div className="flex gap-4 mt-2">
+              <div className="flex flex-col sm:flex-row gap-4 mt-2 w-full sm:w-auto px-4 sm:px-0">
                 <a
-                  href="/Birava_Prajapati_Resume.pdf"
+                  href="/birava/Birava_Prajapati_Resume.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="rounded-md bg-indigo-600 px-6 py-3 text-base font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 transition-colors"

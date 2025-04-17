@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
+import Navigation from "@/components/Navigation";
 
 const plusJakartaSans = Plus_Jakarta_Sans({
   subsets: ["latin"],
@@ -20,8 +21,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth">
+      <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      </head>
       <body className={plusJakartaSans.className} suppressHydrationWarning>
-        {children}
+        <Navigation />
+        <main className="pt-16">
+          {children}
+        </main>
       </body>
     </html>
   );

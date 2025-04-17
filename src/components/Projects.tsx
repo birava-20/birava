@@ -12,7 +12,7 @@ const projects = [
     description:
       "Automated plant care using Raspberry Pi, Python, and environmental sensors (temperature, humidity, soil moisture). Built a mobile companion app with Android Studio.",
     technologies: ["IoT", "Raspberry Pi", "Python", "APIs", "Android Studio"],
-    github: null, // Set to null to indicate restricted access
+    github: null,
     restricted: true,
   },
   {
@@ -20,8 +20,8 @@ const projects = [
     description:
       "Used Python, OpenCV, and MediaPipe to create a virtual assistant that tracks rep count and form accuracy for exercises like squats and curls.",
     technologies: ["Computer Vision", "Python", "AI Tools", "Fitness Tech"],
-    github: "https://github.com/birava-20/virtual-fitness-assistant",
-    restricted: false,
+    github: null,
+    restricted: true,
   },
   {
     title: "Greenhouse Controller",

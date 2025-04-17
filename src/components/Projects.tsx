@@ -90,7 +90,7 @@ export default function Projects() {
                       exit={{ opacity: 0, y: -20 }}
                       className="absolute top-4 left-4 right-4 z-10 rounded-lg bg-gray-900 p-4 text-white text-sm shadow-lg"
                     >
-                      This project&apos;s code is not available to share as it is being completed as an academic final year project.
+                      This project&apos;s code is not available to share as it was completed as an academic final year project.
                     </motion.div>
                   )}
                 </AnimatePresence>

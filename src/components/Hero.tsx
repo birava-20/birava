@@ -27,7 +27,7 @@ export default function Hero() {
             >
               <div className="relative w-32 h-32 sm:w-40 sm:h-40 mb-6 sm:mb-8">
                 <Image
-                  src="/birava/profile.png"
+                  src="/profile.png"
                   alt="Birava Prajapati"
                   fill
                   className="rounded-full object-cover"
@@ -46,7 +46,7 @@ export default function Hero() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 mt-2 w-full sm:w-auto px-4 sm:px-0">
                 <a
-                  href="/birava/Birava_Prajapati_Resume.pdf"
+                  href="/Birava_Prajapati_Resume.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="rounded-md bg-indigo-600 px-6 py-3 text-base font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 transition-colors"

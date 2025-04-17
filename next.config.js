@@ -4,8 +4,6 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: '/birava',
-  assetPrefix: '/birava/',
   trailingSlash: true,
 }
 

@@ -9,9 +9,25 @@ const plusJakartaSans = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Birava Prajapati",
-  description:
-    "Portfolio website of Birava Prajapati, a recent graduate and mobile app developer specializing in React Native, Flutter, and native mobile development.",
+  title: "Birava Prajapati — Tech Portfolio",
+  description: "A passionate IT support and system admin professional. Explore my projects, skills, and tech journey.",
+  metadataBase: new URL('https://birava.me'),
+  openGraph: {
+    title: "Birava Prajapati — Tech Portfolio",
+    description: "A passionate IT support and system admin professional. Explore my projects, skills, and tech journey.",
+    url: 'https://birava.me',
+    siteName: 'Birava Prajapati',
+    locale: 'en_US',
+    type: 'website',
+    images: [
+      {
+        url: '/preview.png',
+        width: 1200,
+        height: 630,
+        alt: 'Birava Prajapati - Tech Portfolio'
+      }
+    ],
+  },
 };
 
 export default function RootLayout({
